@@ -1,11 +1,8 @@
 from typing import List
-import logging
 import input_parser as parser
 from models import FlowerBundle, FlowerOrder
 import bundle_factory
 import min_bundle_creator
-
-logger = logging.getLogger(__name__)
 
 
 def _group_by_quantity(bundles: List[FlowerBundle]):
