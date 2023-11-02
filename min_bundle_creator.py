@@ -25,6 +25,12 @@ def _find_combination_sum(amount: int, bundles: List[FlowerBundle], memo: Dict):
   return shortest_combination
 
 
+"""
+We are using memoisation to avoid duplicate calcualations.
+This will be only noticable for large inputs
+"""
+
+
 def create_min_bundle_combinations(amount: int, bundles: List[FlowerBundle]) -> List[FlowerBundle]:
   ans = _find_combination_sum(amount, bundles, {})
   if ans is None:
