@@ -1,0 +1,12 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabCompletion": "on"
+  },
+  "autopep8.args": [
+    "--indent-size=2"
+  ],
+  "workbench.colorTheme": "Default Dark+"
+}
